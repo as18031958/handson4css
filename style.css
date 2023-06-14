@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.linear{
+    width: 100%;
+    height: 30px;
+    background: linear-gradient(to right, red, black, green, yellow);
+    text-align: center;
+}
+.orderd{
+    margin-top: 5px;
+    margin-left: 300px;
+    width: 50%;
+    height: 75px;
+    background-color: aquamarine;
+    border: 3px solid red;
+    text-align: center;
+    border-radius: 20px;
+
+}
+.centre{
+     display: inline-block;
+     text-align: left;
+}
+.grid1{
+    width: 100%;
+    height: 150px;
+    background-color: aqua;
+    border-radius: 15px;
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    column-gap: 0px;
+    
+}
+.box{
+    width: 90%;
+    height: 70px;
+    border-radius: 15px;
+    margin-left: 30px;
+    /* background-color: aquamarine; */
+    
+
+}
+.Box1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-color: cadetblue;
+}
+.Box2{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background-color: cadetblue;
+}
+.Box3{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    background-color: cadetblue;
+}
+.Box4{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-color: cadetblue;
+}
+.top{
+    text-align: center;
+    margin-top: 10px;
+    width: 100%;
+    height: 30px;
+    background: radial-gradient(yellow, red);
+}
+.radial{
+     /* box-sizing: border-box; */
+     margin-top: 5px;
+     width: 100%;
+     height: 200px;
+     background: radial-gradient(blue, green);
+     display: flex;
+     justify-content: space-evenly; 
+     padding-top: 60px;
+   
+}
+.bag{
+    box-sizing: border-box;
+    color: red;
+    height: 110px;
+    width: 150px;
+    background-color: yellow;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+.grid2{
+    display: grid;
+    grid-template-columns: auto auto auto 100px;
+    grid-template-rows: 50px 100px auto 50px;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+ 
+.task1{
+    color: white;
+    padding-left: 450px;
+    background-color: red;
+    grid-column: 1/5;
+    grid-row: 1/2;
+    align-items: center;
+}
+.task2{
+    color: white;
+    background-color: green;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    text-align: center;
+}
+.task3{
+    color: white;
+    background-color: blue;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.task4{
+    color: white;
+    background-color: blueviolet;
+    grid-column: 3/4;
+    grid-row: 2/3;
+    text-align: start;
+}
+.task5{
+    
+    color: white;
+    background-color: black;
+    grid-column: 4/5;
+    grid-row: 2/4;
+}
+.task6{
+    color: white;
+    background-color: orangered;
+    grid-column: 1/4;
+    grid-row: 3/4;
+}
+.task7{
+    /* padding-left:100px; */
+    background-color: aqua;
+    grid-column: 1/5;
+    grid-row: 4/5;
+    align-items: center; 
+    text-align: center; 
+}
+
+
